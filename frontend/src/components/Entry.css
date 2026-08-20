@@ -1,0 +1,73 @@
+
+/* Location Component */
+.location {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .location > img {
+    width: 14px;
+    margin-right: 4px;
+  }
+  
+  .location > p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  
+  .location > a {
+    color: #2B283A;
+    font-size: 0.7rem;
+    text-decoration: none;
+  }
+  
+  /* Image Container */
+  .main-image-container {
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-right: 19px;
+    border-radius: 5px;
+  }
+  
+  .main-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* Trip Card */
+  .trip-dates {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    line-height: 1.5;
+    font-size: 0.8rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-weight: bold;
+    overflow: hidden;
+  }
+  
+  .card-title {
+    margin-top: 7px;
+    margin-bottom: 17px;
+  }
+  
+  /* Center the Form Correctly */
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px); /* Adjusted height to prevent overlap */
+    background-color: #f5f5f5;
+    margin-top: 6.5rem;
+  }
+  .header-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  

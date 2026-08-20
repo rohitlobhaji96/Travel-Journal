@@ -1,0 +1,60 @@
+/* Form Styling */
+.form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+  }
+  
+  /* Labels */
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Input and Textarea Fields */
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Textarea Styling */
+  textarea {
+    resize: vertical;
+    height: 80px;
+  }
+  
+  /* Submit Button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 500px) {
+    form {
+      width: 90%;
+    }
+  }
+  
